@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Frontend III Ejercicio práctico clase 1</title>
+</head>
+
+<body>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <div id="root"></div>
+    <script type="text/javascript">
+        const h1 = React.createElement(
+            "h1",
+            { key: 1 },
+            "Con lo visto hasta ahora"
+        );
+        const h2 = React.createElement(
+            "h2",
+            { key: 2 },
+            "Replica este HTML"
+        );
+        const h3 = React.createElement(
+            "h3",
+            { key: 3 },
+            "Usando"
+        );
+        const h4 = React.createElement(
+            "h4",
+            { key: 4 },
+            "React.jsL"
+        );
+
+        const div_el = React.createElement(
+            "div",
+            null,
+            [h1, h2, h3, h4]
+        );
+
+        ReactDOM.render(div_el,document.getElementById("root"))    
+        </script>
+
+</body >
+
+
+</html >
