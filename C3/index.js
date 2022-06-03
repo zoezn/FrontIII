@@ -1,4 +1,4 @@
-const state = {
+const Info = {
     personalData: {
         name: "Blake",
         lastname: "Lively",
@@ -66,16 +66,16 @@ const Bio = ({ bio })=>{
     )
 }
 
-const { education } = state;
+const { education } = Info;
 const App = (
     <div>
         <Header/>
         <Info
-            name={state.personalData.name}
-            nationality={state.personalData.nationality}
-            age={state.personalData.age}
-            occupation={state.personalData.occupation}
-            avatar={state.personalData.avatar}
+            name={Info.personalData.name}
+            nationality={Info.personalData.nationality}
+            age={Info.personalData.age}
+            occupation={Info.personalData.occupation}
+            avatar={Info.personalData.avatar}
         />
         <ul className="institutos">
             {
@@ -90,7 +90,7 @@ const App = (
             
         </ul>
         <Bio
-                bio={state.bio}/>
+                bio={Info.bio}/>
     </div>
 );
 
