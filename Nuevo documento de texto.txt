@@ -1,5 +1,16 @@
 npm init -y => crear el package json
-npm install lodashnpm install --save-dev webpack-cli webpack
+npm install lodash
+npm install --save-dev webpack-cli webpack
 npx create-react-app “my-app”
 npm start
 en package.json las dependencias y lo del test
+
+npm init -y => crear el package json
+npm install lodash
+npm install --save-dev webpack-cli webpack
+npx create-react-app “my-app”
+cd
+
+
+
+npm install --save styled-components
