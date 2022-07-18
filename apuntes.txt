@@ -1,0 +1,24 @@
+mayor ventaja de componentes funcionales? son reutilizables
+componentes de clase: la logica esta dentro del componente, es dificil sacarla de ahi para reutilizarlo
+libreria: pedazo de codigo reutilizable
+framework: estructura de trabajo definida
+[] en use effect, efecto de dependencias ??
+componentDidUpdate : argumentos q recibe: recibe logica en base a si el componente recibio actualizacion o  no (componentDidUpdate(prevProps, prevState))
+)
+npx create-react-app: instalacion default de proyecto 
+eventos de usuario: acciones q realiza el usuario desde el ui (onclick)
+inicar proeycto con npx: instala la ultima version de todo
+componente de clase: necesita render
+tipos de estilos: css, stylescomponents, modules css.
+librerias: materialui, saas, tailwind.
+state en constructor: uso de la palabra this para acceder a las propiedades del estado.
+componentDidMount utilidad: hacer cambios en la logica cuando recien se monta el componente.
+switch(react route): no se usa mas, version vieja hasta 5
+evento sintetico: envuelve eventos nativos, sirve para compatibilidad de navegadores
+react hooks: paradigma de programacion funcional q propone react
+tipo de dato de state: object
+xq necesitamos desestructurar userstate: para evitar declarar dos var con valores q provienen del mismo lugar.
+react hooks: permite la modularidad de codigos, especialmente la relacion a funciones
+react class components, todo es reutilizable? no
+que problema hay en terminos de rendimiento con class components: reusabilidad, modularidad, wrapper hell
+la estructura react es jerarquico y no hereditario 
